@@ -1,0 +1,230 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+body{
+    background-color: #E3E6E3;
+}
+.container{
+    width: 64%;
+    margin: 10px auto;
+    
+}
+.header{
+    background-color:#009270 ;
+    display: flex;
+}
+.header img{
+    width: 100px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.header ul li{
+    display: inline-block;
+    margin-right: 10px;
+    color: #FFFFFF;
+
+}
+.header ul{
+    margin-left: 20px;
+    margin-top: 14px;
+    
+}
+.header ul li i{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.CribuzzPlus{
+    background-color:#FFFFFF ;
+    margin-top: 10px;
+    height: 20px;
+    border-radius: 50px;
+    padding: 5px 20px;
+}
+.search {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.user{
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.nav{
+    background-color: #444444;
+    display: flex;
+}
+.nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+    color: #FFFFFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    padding: 15px 0;
+}
+.CurrentMatches{
+    background-color: #ffffff;
+}
+.CurrentMatches ul li{
+    display: inline-block;
+    margin: 10px;
+    padding: 5px 0 ;
+}
+.LiveCricketScore{
+    background-color: #ffffff;
+    border-top: 2px solid #F1F3F1;
+    border-bottom:2px solid #F1F3F1 ;
+
+}
+.LiveCricketScore ul li{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 15px 0;
+    color: #028062;
+}
+.score ul li{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 1px 25px;
+    border-radius: 200px ;
+    margin-bottom: 10px;
+    background-color: #CFE0DB;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.contentMatchesp{
+    padding: 0   20px;
+    background-color: #FFFFFF;
+    padding-top: 10px;
+}
+.contentMatchesParent{
+    display: flex;
+}
+.international h1{
+    size: 10px;
+}
+.contentMatchesLeft{
+    width: 70%;
+    border-right: 2px solid #F1F3F1;
+    border-top:2px solid #F1F3F1 ;
+}
+.international p{
+    display: inline-block;
+    margin: 10px;
+    padding: 5px 0 ;
+    width: 97%;
+    border: 2px solid #F1F3F1;
+    background-color: #ECEBEB;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.PLUNKET {
+    display: flex;
+    margin: 15px;
+    padding: 20px;
+    background-color: #F0F0F0;
+    width: 220px;
+    border-left: 2px solid rgb(215, 37, 37);
+}
+.PLUNKET i{
+    margin-left: 100px;
+}
+.Wel{
+    display: flex;
+}
+.Wel p{
+    margin-left: 20px;
+    font-weight: bold;
+}
+.nz p{
+    color: red;
+}
+.bai p{
+    color: #666666;
+}
+.arrow{
+    display: flex;
+}
+.arrow p{
+    margin-left: 10px;
+}
+.Otago ul li{
+    display: inline-block;
+    padding: 0 10px;
+    border-right: 1px solid black;
+}
+.Otago ul li:nth-child(4){
+    border-right: none;
+}
+.Otago ul li a{
+    text-decoration: none;
+}
+.contentMatchesRight h3{
+    margin-right: 15px;
+    padding-right: 15px;
+}
+.contentMatchesRight button{
+    margin-left: 100px;
+    background-color: #028062;
+    color: white;
+    border:none;
+    padding: 10px 20px;
+}
+.contentMatchesRight img{
+    padding-bottom: 15px;
+}
+.footer_cricbuzz img{
+    width: 100px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.footer{
+    background-color: #4A4A4A;
+    padding-left: 300px;
+    padding-top: 40px;
+    display: flex;
+    padding-bottom: 5px;
+}
+.footer h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Mobile{
+    margin-left: 50px;
+    color: #FFFFFF;
+    padding-bottom: 5px;
+}
+.Mobile i{
+    margin:10px ;
+}
+.Mobile ul li{
+    list-style-type: none;
+    padding: 2;
+}
+.FOLLOW i{
+    margin:10px ;
+}
+.FOLLOW ul li{
+    margin-left: 105px;
+    list-style-type: none;
+    color: #FFFFFF;
+    padding: 2;
+}
+.FOLLOW h3{
+    margin-left: 105px;
+    padding-bottom: 15px;
+    color: #FFFFFF;
+}
+.COMPANY h3{
+    margin-left: 105px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+.COMPANY ul li{
+    margin-left: 105px;
+    color: #FFFFFF;
+    list-style-type: none;
+    padding: 5px;
+}
